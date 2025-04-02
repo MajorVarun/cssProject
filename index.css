@@ -1,0 +1,96 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Post section styles */
+.post {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+.post h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.post-content h3 {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.read-more {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.read-more a {
+  color: #333;
+  text-decoration: none;
+}
+
+.read-more a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
